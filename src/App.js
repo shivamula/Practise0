@@ -1,11 +1,12 @@
-import logo from "./logo.svg";
 import "./App.css";
 import State from "./Components/State";
-
+import Props from "./Components/Props";
+import StateFC from "./Components/StateFC";
 function App() {
   return (
     <div className="App">
-      <State />
+      <StateFC />
+      {/* <State /> */}
       <Props />
     </div>
   );
