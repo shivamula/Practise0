@@ -1,9 +1,9 @@
 import React from "react";
-
-function Props() {
+import StateFC from "./StateFC";
+function Props(props) {
   return (
     <div>
-      <h1>Propssssssssssssssssssssssssssssssssssssssssssss</h1>
+      <StateFC onSubmit={props.handleSubmit} />
     </div>
   );
 }

@@ -5,7 +5,7 @@ import StateFC from "./Components/StateFC";
 function App() {
   return (
     <div className="App">
-      <StateFC />
+      {/* <StateFC /> */}
       {/* <State /> */}
       <Props />
     </div>

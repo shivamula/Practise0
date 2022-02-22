@@ -24,7 +24,7 @@ function StateFC() {
           />
         </div>
         <div className="mb-3">
-          <label htmlfor="exampleFormInput2" className="form-label">
+          <label htmlFor="exampleFormInput2" className="form-label">
             UserName
           </label>
           <input
@@ -37,7 +37,7 @@ function StateFC() {
           ></input>
         </div>
         <div className="mb-3">
-          <label for="exampleFormControlTextarea1" className="form-label">
+          <label htmlFor="exampleFormControlTextarea1" className="form-label">
             Example textarea
           </label>
           <textarea
